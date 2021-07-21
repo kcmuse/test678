@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.send(
-        `<p>API - An application programming interface, is a computing interface that defines interactions between multiple software intermediaries</p>`
+        `<h1>Banana's are good!</h1>`
     );
 });
 
